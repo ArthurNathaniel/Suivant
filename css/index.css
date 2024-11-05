@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.container p{
+    margin-top: 20px;
+}
+
+
+
+
+.btn {
+    margin-top: 20px;
+    padding: 15px 45px;
+    background-color: #D51A0B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn a{
+    color: #fff;
+}
+
+.logo_image img{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
